@@ -1,8 +1,20 @@
-import React from "react";
+import React, {useContext} from "react";
+import CartContext from "../../../store/cart-context";
 import styles from "./MealItem.module.css";
 import MealItemForm from "./MealItemForm";
 const MealItem = (props) => {
   const price = `$${props.meal.price.toFixed(2)}`;
+  const cartCtx  = useContext(CartContext);
+  const addToCartHandler = amount =>{
+    cartCtx.addItem({
+      id: props.meal.id,
+      name: props.meal.name,
+      price: props.meal.price,
+      amount: amount
+    });
+
+  }
+ 
   return (
     <li className={styles.meal}>
       <div >
@@ -11,7 +23,7 @@ const MealItem = (props) => {
         <div className={styles.price}>{price}</div>
       </div>
       <div>
-          <MealItemForm/>
+          <MealItemForm onAddToCart = {addToCartHandler}/>
       </div>
     </li>
   );
