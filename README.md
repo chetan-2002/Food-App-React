@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to Food App React 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
@@ -45,3 +46,9 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+=======
+# Food-App-React
+
+You can access the ap here :https://food-ordering-app-df053.web.app/
+
+>>>>>>> 5d04656b035202d6a716786b18fa3c0bbf6c335c
