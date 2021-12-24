@@ -8,7 +8,6 @@
 
 > An app which allows user to add food items to the cart and place an order from there.The user data wouldbe send to the backend and would be stored in the database.
 
-### 🏠 [Homepage](https://food-ordering-app-df053.web.app/)
 
 ### ✨ [Demo](https://food-ordering-app-df053.web.app/)
 
